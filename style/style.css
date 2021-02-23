@@ -8,11 +8,11 @@ body {
     background: white;
 }
 #wrapper {
-max-width: 1500px;
-margin: 0 auto;
-display: flex;
-flex-direction: column;
-justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .logo {
     max-width: 100px;
@@ -298,7 +298,7 @@ header {
     color: #ffffff;
     font-weight: 700;
     color: white;
-
+    padding-top: 20px;
 }
 .blogis {
     padding-top: 60px;
@@ -328,7 +328,118 @@ header {
     cursor: pointer;
 }
 .button3:hover {
-background-color: white;
-color: #f72b3b;
-transition: 0.5s;
+    background-color: white;
+    color: #f72b3b;
+    transition: 0.5s;
+}
+.button5 {
+    margin: 20px;
+    text-transform: uppercase;
+    width: 200px;
+    height: 55px;
+    background-color: #5585a2;
+    color: white;
+    font-size: 13px;
+    border: 1px solid #5585a2;
+    filter: drop-shadow(0px 2px 2.5px rgba(0,0,0,0.5));
+    cursor: pointer;
+}
+.button5:hover {
+    background-color: white;
+    color: #5585a2;
+    transition: 0.5s;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/img\ \(7\).png");
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center right;
+    min-height: 700px;
+    justify-content: center;
+
+}
+.pcontact {
+    font-size: 70px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.ppcontact {
+    max-width: 400px;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.pc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.contactpanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rightcontact {
+    padding: 40px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.little {
+    font-size: medium;
+    padding-bottom: 8px;
+}
+.big {
+    font-size: 20px;
+    font-weight: bold;
+}
+[class^="ini"] {
+    min-width: 400px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid #00c4c4;
+    background-color: #00c4c4;
+    opacity: 40%;
+    filter: drop-shadow(1px 1.732px 0px #ffffff);
+    border: 1px solid #c6c6c6;
+}
+.ini::placeholder {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+textarea {
+    resize: none;
+    background-color: #00c4c4;
+}
+.ini:hover {
+    opacity: 90%;
+}
+.foot {
+    display: flex;
+    flex-direction: row;
+    background-color: #262626;
+    min-height: 6vh;
+    max-width: 1500px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.footie {
+    color: rgb(102, 95, 93);
+}
+.cahee {
+    color: white;
+}
+.redie {
+    color: red;
 }
